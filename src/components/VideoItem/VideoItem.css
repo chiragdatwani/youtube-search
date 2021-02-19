@@ -1,0 +1,24 @@
+.video-item {
+  display: flex;
+  width: 22vw;
+  max-height: 105px;
+  padding: 4px;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+.video-item img {
+  max-width: 180px;
+
+  flex: 0.6;
+  border: none;
+}
+
+.video-item p {
+  flex: 0.4;
+  font-weight: 500;
+  color: white;
+}

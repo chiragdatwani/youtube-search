@@ -1,0 +1,32 @@
+.video-player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+}
+
+.video-player iframe {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.details {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 97%;
+}
+
+.details h3 {
+  text-align: left;
+  color: white;
+}
+.details p {
+  text-align: left;
+  font-weight: 400;
+  color: white;
+}
